@@ -1,0 +1,43 @@
+@font-face{
+    font-family: Woody Wood;
+    src: url(./Fonts/WoodyWood.ttf);
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    position: relative;
+}
+
+body{
+    background-color: #fcf3e3;
+}
+
+header{
+    display: flex;
+    height: 50px;
+    background-color: #ffAA2b;
+    justify-content: center;
+}
+
+.titulo-encabezado{
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-encabezado p{
+    font-family: Woody Wood;
+    font-size: 34px;
+    text-align: center;
+    text-shadow: #00000077 0.1em 0.1em 0.2em;
+    color: rgb(41, 15, 1);
+}
+
+nav{
+    background-color: #e79d13;
+}
+
+section{
+    text-align: center;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2? family= Licorice & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Popins', sans-serif;
+}
+
+.REC{
+    width: 165px;
+    height: 67px;
+    flex-shrink: 0;
+    background-color:  rgba(204, 60, 60, 0.72);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+    margin: 15px;
+}
+
+.REC p{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Licorice', cursive;
+    text-shadow: 2px 0 0 rgb(207, 191, 191);
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+.row{
+    display: flex;
+    padding: 0px;
+    margin: 10px;
+    position: relative;
+}
+.card{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+}
+
